@@ -4,7 +4,7 @@ Root Cause Analysis
 Decoding Supply-Demand Gap: A Data-Driven Analysis of Cab Services
 
 Problem Statement
-Companyh has been experiencing significant issues related to ride cancellations and non-availability of cars, particularly for routes between the City and the Airport. These issues have resulted in negative customer feedback and a loss of revenue. 
+Company has been experiencing significant issues related to ride cancellations and non-availability of cars, particularly for routes between the City and the Airport. These issues have resulted in negative customer feedback and a loss of revenue. 
 
 #Column Profiling:
 Request id: Unique identifier for each cab request.
