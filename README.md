@@ -14,6 +14,48 @@ Status: Status of the ride request (Trip Completed, No Cars Available, Canceled)
 Request timestamp: Timestamp when the ride was requested.
 Drop timestamp: Timestamp when the ride was completed.
 
+#Before jumping on to solution ,Let us clarify few of the things:
+
+What is ride cancellation as per company?
+Ride cancellation rate = No of cancelled bookings / No of confirmed bookings
+
+Categorise the ride cancellations into two groups -
+
+Intercity
+City to Airport (or vice-versa)
+
+#First of all, irrespective of the data that we have, there are some questions that we need to ask as a Data/Product Analyst to get some clarity on the issue
+
+Q.Is this thing happening for specific devices? (Android or iOS)
+
+Q. Has there been any major change/upgrade in the product?
+
+Q. Is this increase in cancellation rate gradual or sudden?'
+
+Q. Have we checked for any issues on the driver app?
+
+Q. Are we receiving any major complaints or bug reports?
+
+Q. Is the change observed across several regions specifically or is it uniform?
+
+Q. Are we seeing a high cancellation rate for driver’s belonging to a specific age group?
+
+Q. Any pattern in ride cancellations in terms of the vehicle category? (Auto, Mini or Sedan)
+
+Q. Has there been any major holiday in the past week?
+
+Q. Have we done any recent experiments related to the platform?
+
+Q. Has there been any recent strike or protest by the drivers?
+
+Q. Has company been involved in any controversy lately?
+
+Q. Are we currently facing any connectivity related issues throughout the region? Q. Do we have any reports of frequent app crashes or something like that?
+
+Q. Is there any change detected in the usual user behavior over the last week?
+
+Q. Is it possible that the drivers might be using some other ride sharing platforms as well?
+
 #Analysis Goals
 The primary objectives of this analysis are to:
 Identify the significant factors contributing to ride cancellations and car non-availability.
